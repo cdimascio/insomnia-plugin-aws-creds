@@ -1,0 +1,16 @@
+{
+  "name": "insomnia-plugin-aws-creds",
+  "version": "0.9.1",
+  "private": true,
+  "insomnia": {
+    "name": "insomnia-plugin-aws-sigv4",
+    "description": "Plugin for Insomnia to provide AWS IAM Credentials"
+  },
+  "main": "plugin.js",
+  "dependencies": {
+    "aws-sdk": "^2.855.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
